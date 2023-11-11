@@ -20,7 +20,7 @@ const Featured = ({ title, description }) => {
           <div className="details px-4">
             <h1 className="text-md font-semibold">Ashish Jha</h1>
             <h3 className="text-sm">Delhi, India</h3>
-            <div className="text-md flex justify-between mt-1">
+            <div className="text-md flex justify-between py-1 font-semibold">
               <p>Instagram</p>
               <p>₹5000</p>
             </div>
@@ -40,7 +40,7 @@ const Featured = ({ title, description }) => {
           <div className="details px-4">
             <h1 className="text-md font-semibold">Ashish Jha</h1>
             <h3 className="text-sm">Delhi, India</h3>
-            <div className="text-md flex justify-between mt-1">
+            <div className="text-md flex justify-between py-1 font-semibold">
               <p>Instagram</p>
               <p>₹5000</p>
             </div>
@@ -60,7 +60,7 @@ const Featured = ({ title, description }) => {
           <div className="details px-4">
             <h1 className="text-md font-semibold">Ashish Jha</h1>
             <h3 className="text-sm">Delhi, India</h3>
-            <div className="text-md flex justify-between mt-1">
+            <div className="text-md flex justify-between py-1 font-semibold">
               <p>Instagram</p>
               <p>₹5000</p>
             </div>
@@ -80,7 +80,7 @@ const Featured = ({ title, description }) => {
           <div className="details px-4">
             <h1 className="text-md font-semibold">Ashish Jha</h1>
             <h3 className="text-sm">Delhi, India</h3>
-            <div className="text-md flex justify-between mt-1">
+            <div className="text-md flex justify-between py-1 font-semibold">
               <p>Instagram</p>
               <p>₹5000</p>
             </div>
