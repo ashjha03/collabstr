@@ -1,9 +1,12 @@
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <nav className="border border-gray-300 px-16 py-4 flex justify-between items-center font-semibold">
-      <h1 className="text-4xl">Collabstr</h1>
+      <Link href="/" className="text-4xl">
+        Collabstr
+      </Link>
       <ul className="flex gap-6">
         <li>Explore</li>
         <li>How it works</li>
