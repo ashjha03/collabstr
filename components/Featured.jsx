@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
 
 const Featured = ({ title, description }) => {
   return (
@@ -9,7 +9,7 @@ const Featured = ({ title, description }) => {
         <p className="text-lg font-serif pl-2">{description}</p>
       </div>
       <div className="profiles grid grid-cols-4 gap-4 py-4">
-        <div className="profile cursor-pointer rounded-xl shadow-lg py-4">
+        <Link href="/ashish" className="profile rounded-xl shadow-lg py-4">
           <Image
             src="/img/profile.png"
             alt="Creator"
@@ -28,8 +28,8 @@ const Featured = ({ title, description }) => {
               Fashion, Travel & Lifestyle Content Creator
             </p>
           </div>
-        </div>
-        <div className="profile cursor-pointer rounded-xl shadow-lg py-4">
+        </Link>
+        <Link href="/ashish" className="profile rounded-xl shadow-lg py-4">
           <Image
             src="/img/profile.png"
             alt="Creator"
@@ -48,8 +48,8 @@ const Featured = ({ title, description }) => {
               Fashion, Travel & Lifestyle Content Creator
             </p>
           </div>
-        </div>
-        <div className="profile cursor-pointer rounded-xl shadow-lg py-4">
+        </Link>
+        <Link href="/ashish" className="profile rounded-xl shadow-lg py-4">
           <Image
             src="/img/profile.png"
             alt="Creator"
@@ -68,8 +68,8 @@ const Featured = ({ title, description }) => {
               Fashion, Travel & Lifestyle Content Creator
             </p>
           </div>
-        </div>
-        <div className="profile cursor-pointer rounded-xl shadow-lg py-4">
+        </Link>
+        <Link href="/ashish" className="profile rounded-xl shadow-lg py-4">
           <Image
             src="/img/profile.png"
             alt="Creator"
@@ -88,7 +88,7 @@ const Featured = ({ title, description }) => {
               Fashion, Travel & Lifestyle Content Creator
             </p>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );
